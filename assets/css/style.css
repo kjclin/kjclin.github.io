@@ -65,7 +65,7 @@ a {
 
 .section {
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	position: relative;
 }
  #name-section {
@@ -81,9 +81,15 @@ a {
   #fact-section {
   	background-color: #B595F7;
   }
+  #links-section {
+  	background-color: #80F76E;
+  }
+  #links-text {
+  	color: white;
+  	position: relative;
+  	text-align: center;
+  }
   #fact-text {
   	color: black;
   }
- .halfsection {
- 	position: relative;
-}
+ 
