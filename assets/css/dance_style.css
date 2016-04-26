@@ -12,9 +12,9 @@ body, html {
 }
 .text {
 	position: absolute;
-	font-size: 36px;
+	font-size: 25px;
 	color: white;
-	font-weight: 700;
+	font-weight: 500;
     top: 50%;
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -65,63 +65,47 @@ a {
 
 .section {
 	width: 100%;
-	height: 600px;
+	height: 400px;
 	position: relative;
 }
- #name-section {
- 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/steezy.jpg") no-repeat center center; 
+ #dance-intro-section {
+ 	height: 600px;
+ 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/groupdanceshot.jpg") no-repeat center center; 
  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
  }
- .img-circle {
- 	transition: .3s;
- 	top: 10%;
- 	position: absolute;
- 	height: 260px;
- 	width: 260px;
- 	object-fit: cover;
- 	position: relative;
- 	border-radius: 50%;
- 	-webkit-transform: translateX(-10%) translateY(-85%);
-    -moz-transform: translateX(-10%) translateY(-85%);
-   	transform: translateX(-10%) translateY(-90%);
+ #dance-intro-text {
+ 	font-size: 40px;
  }
- .img-circle:hover {
- 	height: 270px;
- 	width: 270px;
- 	object-fit: cover;
+ #info-section {
+ 	background-color: #5FCFE0;
  }
- #name-text {
- 	font-size: 45px;
- }
-  #major-section {
-   background-color: #5FCFE0;
+  #timeline-section-1 {
+   background-color: #D6B376;
   }
-  #major-text {
-  	top: 70%;
+  #timeline-section-2 {
+  	background-color: #ED6F6E;
   }
-  #fact-section {
-  	background-color: #B595F7;
+  #timeline-section-3{
+  	background-color: #6FCEF7;
   }
-  #links-section {
-  	height: 300px;
-  	background-color: #CCF767;
+  #timeline-section-4 {
+  	background-color: #white;
   }
-  #links-text {
-  	top: 40%;
-  	font-size: 25px;
+  #contacts-section {
+  	background-color: #BECCD3;
+  }
+  #contacts-text {
+  	top: 38%;
+  	font-size: 15px;
 	font-weight: 300;
-  	color: white;
+  	color: #A9A9A9;
   	position: relative;
   	text-align: center;
   }
-  #links-text:visited{
-  	color: white;
-  } 
-  #fact-text {
-  	top: 70%;
+  #exp-text {
   	color: black;
   }
  
