@@ -17,9 +17,9 @@ body, html {
 	font-weight: 500;
     top: 50%;
     left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-   	transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-60%);
+    -moz-transform: translateX(-50%) translateY(-60%);
+   	transform: translateX(-50%) translateY(-60%);
 }
 
 
@@ -65,7 +65,7 @@ a {
 
 .section {
 	width: 100%;
-	height: 400px;
+	height: 600px;
 	position: relative;
 }
  #dance-intro-section {
@@ -95,6 +95,7 @@ a {
   	background-color: #white;
   }
   #contacts-section {
+  	height: 200px;
   	background-color: #BECCD3;
   }
   #contacts-text {
