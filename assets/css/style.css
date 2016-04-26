@@ -76,13 +76,15 @@ a {
   background-size: cover;*/
  }
  .img-circle {
- 	top: 0%;
- 	position: relative;
- 	height: 200px;
- 	width: 200px;
+ 	position: absolute;
+ 	height: 260px;
+ 	width: 260px;
  	object-fit: cover;
  	position: relative;
  	border-radius: 50%;
+ 	-webkit-transform: translateX(-10%) translateY(-90%);
+    -moz-transform: translateX(-10%) translateY(-90%);
+   	transform: translateX(-10%) translateY(-90%);
  }
  #name-text {
  	font-size: 45px;
@@ -91,7 +93,7 @@ a {
    background-color: #5FCFE0;
   }
   #major-text {
-  	top: 80%;
+  	top: 70%;
   }
   #fact-section {
   	background-color: #B595F7;
