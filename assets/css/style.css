@@ -75,14 +75,29 @@ a {
   -o-background-size: cover;
   background-size: cover;*/
  }
+ .img-circle {
+ 	top: 0%;
+ 	position: relative;
+ 	height: 200px;
+ 	width: 200px;
+ 	object-fit: cover;
+ 	position: relative;
+ 	border-radius: 50%;
+ }
+ #name-text {
+ 	font-size: 45px;
+ }
   #major-section {
    background-color: #5FCFE0;
+  }
+  #major-text {
+  	top: 80%;
   }
   #fact-section {
   	background-color: #B595F7;
   }
   #links-section {
-  	height: 400px;
+  	height: 450px;
   	background-color: #80F76E;
   }
   #links-text {
