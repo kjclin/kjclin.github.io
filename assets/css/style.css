@@ -100,11 +100,13 @@ a {
   	background-color: #B595F7;
   }
   #links-section {
-  	height: 450px;
+  	height: 300px;
   	background-color: #80F76E;
   }
   #links-text {
   	top: 40%;
+  	font-size: 25px;
+	font-weight: 300;
   	color: white;
   	position: relative;
   	text-align: center;
