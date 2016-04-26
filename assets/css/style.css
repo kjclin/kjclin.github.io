@@ -76,6 +76,7 @@ a {
   background-size: cover;*/
  }
  .img-circle {
+ 	top: 10%;
  	position: absolute;
  	height: 260px;
  	width: 260px;
