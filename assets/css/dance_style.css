@@ -89,7 +89,7 @@ a {
   	background-color: #738387;
   }
   #timeline-section-3{
-  	background-color: #EFABA8;
+  	background-color: #4C84BA;
   }
   #timeline-section-4 {
   	background-color: #BA426C;
@@ -100,17 +100,25 @@ a {
   }
   #contacts-text {
   	top: 50%;
-  	font-size: 15px;
+  	font-size: 20px;
 	font-weight: 300;
   	color: #A9A9A9;
   	position: relative;
   	text-align: center;
   }
   #timeline-text {
-  	font-size: 30px;
+  	font-size: 35px;
+  	font-weight: 560;
   	position: absolute;
-  	top: 20%;
+  	top: 10%;
   	color: white;
+  }
+   #video-text {
+  	font-size: 15px;
+  	position: absolute;
+  	top: 23%;
+  	text-align: center;
+  	color: #CCCCCC;
   }
   .video {
   	position: absolute;
