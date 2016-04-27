@@ -65,7 +65,7 @@ a {
 
 .section {
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	position: relative;
 }
  #dance-intro-section {
@@ -99,7 +99,7 @@ a {
   	background-color: #BECCD3;
   }
   #contacts-text {
-  	top: 38%;
+  	top: 50%;
   	font-size: 15px;
 	font-weight: 300;
   	color: #A9A9A9;
@@ -107,6 +107,16 @@ a {
   	text-align: center;
   }
   #timeline-text {
-  	color: black;
+  	font-size: 30px;
+  	position: absolute;
+  	top: 20%;
+  	color: white;
+  }
+  .video {
+  	position: absolute;
+  	top: 40%;
+  	-webkit-transform: translateX(50%) translateY(-10%);
+    -moz-transform: translateX(50%) translateY(-10%);
+   	transform: translateX(50%) translateY(-10%);
   }
  
