@@ -87,11 +87,18 @@ a {
   	background-color: #ED6F6E;
   }
   #projects-section {
+  	height: 650px;
   	background-color: #6FCEF7;
   }
   #contacts-section {
   	height: 200px;
   	background-color: #BECCD3;
+  }
+  #info-text {
+  	font-size: 22px;
+  }
+  #projects-text {
+  	font-size: 20px;
   }
   #contacts-text {
   	top: 38%;
