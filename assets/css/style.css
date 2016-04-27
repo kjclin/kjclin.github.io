@@ -109,7 +109,7 @@ a {
   	background-color: #B595F7;
   }
   #links-section {
-  	height: 300px;
+  	height: 200px;
   	background-color: #BECCD3;
   }
   #links-text {
@@ -120,7 +120,7 @@ a {
   	text-align: center;
   }
   #non-links-text{
-  	font-size: 20px;
+  	font-size: 25px;
 	font-weight: 300;
   	top: 30%;
   }
