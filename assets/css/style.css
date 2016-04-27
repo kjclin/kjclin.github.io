@@ -113,12 +113,16 @@ a {
   	background-color: #BECCD3;
   }
   #links-text {
-  	top: 40%;
-  	font-size: 25px;
+  	font-size: 20px;
 	font-weight: 300;
   	color: white;
   	position: relative;
   	text-align: center;
+  }
+  #non-links-text{
+  	top: 30%;
+  	font-size: 20px;
+	font-weight: 300;
   }
   #links-text:visited{
   	color: white;
