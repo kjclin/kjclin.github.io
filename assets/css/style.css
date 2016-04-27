@@ -69,7 +69,8 @@ a {
 	position: relative;
 }
  #name-section {
- 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/steezy.jpg") no-repeat center center; 
+ 	height: 620px;
+ 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/steezy.jpg") no-repeat center center; 
  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -94,6 +95,8 @@ a {
  	object-fit: cover;
  }
  #name-text {
+ 	top: 40%;
+ 	left: 50%;
  	font-size: 45px;
  }
   #major-section {
